@@ -1,0 +1,760 @@
+
+/* Reviews CSS */
+.container-fluid.movies{
+  margin-top: 100px;
+}
+
+.clip-thoongavanam,.clip-hotel-transylvania2,.clip-kanche,.clip-pyaar-ka-punchnama-2,.clip-martian{
+  /*position: absolute;*/
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.clip-thoongavanam img,.clip-hotel-transylvania2 img,.clip-kanche img,.clip-pyaar-ka-punchnama-2 img,.clip-martian img{
+  height: 150px;
+  width: 100%;
+}
+.col-xs-6{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-sm-2.more div{
+  border-width: 194px;
+  padding-top: 25px;
+	background: url("../img/reviews/review.jpg");
+  font-size: 40px;
+  padding-left: 25px;
+  color: floralwhite;
+}
+.clip-more{
+   -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+   height: 150px;
+   width: 100%;
+}
+
+.hreview,.hreview1,.hreview2,.hreview3,.hreview4{
+visibility: hidden;
+position: absolute;
+ top: 30px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+ text-align: center;
+}
+.hreview span,.hreview1 span,.hreview2 span,.hreview3 span,.hreview4 span{
+  color: crimson;
+  font-size:16px;
+  font-weight: bold;
+}
+.hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+  border-radius: 0;
+}
+.col-12 .kanche,.col-12 .pkp2,.col-12 .hotelt2,.col-12 .martian{
+  visibility: hidden;
+}
+
+.col-12.reviewdiv{
+  margin-top: 20px;
+  height: 600px;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.thoongavanam img,.hotelt2 img,.kanche img,.martian img,.pkp2 img{
+height: 400px;
+/*width: 400px;
+height: 300px;*/
+}
+.col-sm-5.poster{
+  padding-right: 0px;
+}
+.col-sm-5.posterreview{
+  padding-left: 0px;
+}
+.reviewdata{
+
+  width:100%;
+  height: 100%;
+  padding-left: 90px;
+
+  /*background-color: lightgrey;*/
+}
+.clip-thoongavanam-review{
+      float: left;
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 15% 20%,0% 20%,15% 12%);
+    width:100%;
+    height: 100%;
+  /*border: 1px solid blue;*/
+  background-color: darkkhaki;
+  padding: 0px;
+  line-height: 1.5em;
+  color:floralwhite;
+  box-shadow: 0px 0px 5px crimson;
+}
+.clip-thoongavanam-review h5{letter-spacing: 0.3px;}
+
+
+
+/* Reviews CSS End /////////////////////////////////////////////////////*/
+
+ body{background-color: white;}
+ .thumbnail{
+background-color: white;
+ border: none;
+ padding: 0;}
+
+ /* div on hover example */
+
+.hoverspan{
+visibility: hidden;
+position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.hoverspan .btn{
+  border-radius: 0;
+}
+
+.hoverspan1{
+visibility: hidden;
+position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.hoverspan1 .btn{
+  border-radius: 0;
+}
+
+.hoverspan2{
+visibility: hidden;
+position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.hoverspan2 .btn{
+  border-radius: 0;
+}
+
+.hoverspan3{
+visibility: hidden;
+position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.hoverspan3 .btn{
+  border-radius: 0;
+}
+
+/* div on hover example end*/
+
+/* Modal Trailers */
+
+#trailer1 .modal-content{
+  background-color: white;
+  padding: 0px;
+}
+#trailer1 .modal-body{
+  padding: 0px;
+  margin: 0px;
+  height: 315px;
+}
+#trailer1 .modal-body .close{
+  position: absolute;
+  color: aliceblue;
+  right: 1%;
+  font-size: 23px;
+  opacity: 1;
+}
+
+#trailer2 .modal-content{
+  background-color: white;
+  padding: 0px;
+}
+#trailer2 .modal-body{
+  padding: 0px;
+  margin: 0px;
+  height: 315px;
+}
+#trailer2 .modal-body .close{
+  position: absolute;
+  color: aliceblue;
+  right: 1%;
+  font-size: 23px;
+  opacity: 1;
+}
+
+/* Modal Trailers end*/
+
+/* modal body styling */
+.usersignin{
+  margin-bottom: 10px;
+}
+.modal-body{
+  text-align: center;
+  line-height: 2em;
+  background-color: beige;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;}
+.modal-body .close{color:darkolivegreen;opacity: .6;}
+.modal-body img{margin-bottom: 20px;}
+.modal-body p{color: #4d9900;font-weight: bold; }
+.modal-body span{color:#e62e00;}
+.modal-body .btn.btn-danger{width: 120px;margin-top: 5px;margin-bottom: 10px;}
+.modal-body .btn.btn-link{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#newuser{color:#e62e00;}
+#fbsignin{margin-right: 5px;}
+/* modal body styling end*/
+
+/* Navbar styling start */
+
+.navbar-header a{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.navbar-default{
+  background-color: #1f2533;
+}
+.navbar{
+  border: none;
+}
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: white;
+}
+
+.navbar-right{
+  padding-right: 2px;
+}
+.dropdown-menu .table{
+  border-top-style: hidden;
+  margin-bottom: 0px;
+}
+
+.navbar-brand
+{
+  padding:13px 15px;
+}
+
+marquee{
+  width: 250px;
+  padding-top: 10px;
+}
+.navbar-default marquee .btn-link{
+  font-weight: bold;
+  color: white;
+}
+marquee .btn-link:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.navbar-toggle{
+  background-color: white;
+}
+
+/* Navbar styling end */
+
+/* Carousel styling */
+.item .carousel-caption{
+  position: absolute;
+  left: 65%;
+  right: 1%;
+  bottom: 0%;
+  font-weight: bold;
+}
+.item .carousel-caption .btn{
+  border-radius: 0px;
+}
+.item .carousel-caption span{
+  color:floralwhite;
+}
+
+
+.carousel-indicators li{
+  border-radius: 0px;
+}
+
+.carousel-control {
+    top: 45%;
+    width: 40px;
+    height: 40px;
+  }
+.carousel-control .icon-next{
+font-size: 50px;
+position: static;
+margin-left: 01px;
+}
+.carousel-control .icon-prev{
+font-size: 50px;
+position: static;
+margin-right: 02px;
+}
+ #myCarousel {
+  margin-top: 50px;
+  margin-bottom: 20px;
+ }
+
+ .container-fluid.carouselbar{
+   padding-left: 0px;
+   padding-right: 0px;
+ }
+ .carousel-caption {
+  font-size: 24px;
+ }
+
+ .carousel-caption h4 {
+  font-size: 32px;
+ }
+
+  .carousel-control.right{
+    background-image: none;
+  }
+  .carousel-control.left{
+    background-image: none;
+  }
+
+ #myCarousel .item { height: 400px; }
+
+ #slide1 {
+  background: url('../img/img1-prd-medium.jpg') top center no-repeat;
+ }
+
+ #slide2 {
+  background: url('../img/img2-npt-medium.jpg') top center no-repeat;
+ }
+
+ #slide3 {
+  background: url('../img/img3-spectre-medium.jpg') top center no-repeat;
+ }
+
+ /* Carousel styling end*/
+
+ /* Flex Styling end */
+
+ .newrow{
+   margin-top: 15px;
+ }
+
+ .check,.check1,.check2{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .row1{
+   margin: 2px;
+   background-color: firebrick;
+   width:100%;
+   height: 150px;
+   //text-align: center;
+   border-radius: 5px;
+   padding: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   color:white;
+   font-weight:bold;
+   font-family: 'Raleway', sans-serif;
+   line-height: 1.5em;
+   box-shadow: 1px 1px 2px #c02c3a;
+   letter-spacing: 1px;
+ }
+.row1.one{height: 120px;}
+.row1.two{height: 80px;}
+.row1.three{height: 100px;}
+/*.row3.one{height: 350px}
+.row3.one{padding: 0px;margin: 0px;}
+.col-sm-3.two{padding: 0px;}*/
+.img-responsive {
+  height: 100%;
+}
+ .row2.one{
+   margin: 2px;
+   margin-bottom:15px;
+   background-color: firebrick;
+   width:100%;
+   //text-align: center;
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   color:white;
+   font-weight:bold;
+   font-family: 'Raleway', sans-serif;
+   line-height: 1.5em;
+   box-shadow: 1px 1px 2px #c02c3a;
+ }
+ .row2.two{width:100%;}
+.row2.one span{margin-right: 150px;}
+.row2.one{height: 50px;line-height: 12px;}
+.row2.two{height: 295px; margin-top: 0px;}
+.col-md-3.slide{padding-right: 2px;padding-left: 2px;}
+.slick-bar{margin-left: 10px;margin-right: 10px;}
+button.slick-prev,button.slick-next{
+  border-radius: 50%;
+  background: darkgrey;
+}
+button.slick-prev:hover,button.slick-next:hover{
+  background: darkgrey;
+}
+button.slick-prev:focus,button.slick-next:focus{
+  background: darkgrey;
+}
+.thumbnail{
+  margin-bottom: 0px;
+}
+
+
+.title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.thumbnail img{
+  height: 224px;
+  width: 100%;
+}
+ /* Flex Styling end */
+
+ /* Wallet Styling start*/
+.wallet img{
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.wallet{
+  padding-left: 80px;
+  padding-top: 100px;
+}
+#flick,#click{
+  font-size: 28px;
+}
+#description{
+  font-size: 14px;
+  margin-top: 50px;
+}
+#click{
+  color:crimson;
+}
+.wallet button{
+  margin-top: 20px;
+  border-radius: 0;
+  width: 200px;
+}
+
+ /* Wallet Styling end*/
+
+ /* Footer Styling Start*/
+footer{
+background-color:#333338;
+color: #a1a5a7;
+margin-top: 10px;
+}
+ul.unstyled{
+  list-style: none;
+  padding: 0px;
+}
+/* Footer Styling End*/
+@media(max-width:992px){
+  .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+    font-size: 11px;
+  }
+
+}
+
+ /* Media Queries styling start */
+ @media (max-width: 768px) {
+   .thoongavanam img,.kanche img,.hotelt2 img,.martian img,.pkp2 img{
+     float: none;
+     display: none;
+     visibility: hidden;
+   }
+    .reviewdata{
+        padding: 0px;
+    }
+
+   .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
+   .clip-hotel-transylvania2-review{
+     -webkit-clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+   }
+   .col-xs-6{
+     padding-left: 15px;
+     padding-right: 15px;
+   }
+   .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+     font-size: 14px;;
+   }
+   .clip-kanche,.clip-pyaar-ka-punchnama-2{
+     margin-top: 10px;
+   }
+   .clip-martian,.clip-more{
+     margin-top: 10px;
+   }
+   .wallet img{
+     display: none;
+     visibility: hidden;
+   }
+   .wallet{
+     padding-left: 0px;
+     padding-top: 20px;
+     text-align: center;
+   }
+   .item .carousel-caption span{
+     font-size: 14px;
+   }
+   #myCarousel .item { height: 300px; }
+   #myCarousel{
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   #slide1 {
+   background: url('../img/img1-prd-extra-small.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+   background: url('../img/img2-npt-extra-small.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   background: url('../img/img3-spectre-extra-small.jpg') top center no-repeat;
+   }
+ }
+
+ @media (max-width: 630px) {
+
+   .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
+   .clip-hotel-transylvania2-review{
+     width: 100%;
+     height: 500px;
+   }
+   .reviewdata{
+     width: 100%;
+     height: 500px;
+   }
+   .reviewdiv{
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+   .slick-bar{
+ 		margin-left: 10px;
+ 		margin-right: 10px;
+ 	}
+   .carousel-indicators{display: none; visibility: hidden}
+   .item .carousel-caption{
+     position: absolute;
+     left: 0%;
+     font-weight: bold;
+   }
+   .item .carousel-caption span{
+     font-size: 14px;
+   }
+   #myCarousel .item { height: 250px; }
+   #myCarousel{
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   #slide1 {
+   background: url('../img/img1-prd-extra-small2.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+   background: url('../img/img2-npt-extra-small2.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   background: url('../img/img3-spectre-extra-small2.jpg') top center no-repeat;
+   }
+ }
+
+ @media (max-width: 430px) {
+   footer{
+     margin-top: 300px;
+   }
+   .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+     font-size: 11px;
+   }
+   .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
+   .clip-hotel-transylvania2-review{
+     height: 700px;
+   }
+   .reviewdata{
+     height: 800px;
+   }
+  .clip-thoongavanam img,.clip-hotel-transylvania2 img,.clip-kanche img,
+  .clip-pyaar-ka-punchnama-2 img,.clip-martian img{
+    height: 130px;
+  }
+  .col-xs-6{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+   .title{font-size: 12px;}
+   .badge{font-size: 12px}
+   .row3.one{margin-top: 20px;}
+   .item .carousel-caption span{
+     display: none;
+   }
+   .item .carousel-caption .btn{
+     padding: 2px;
+   }
+   .item .carousel-caption .btn{
+     border-radius: 0px;
+   }
+   .carousel-indicators{display: none; visibility: hidden}
+   #myCarousel .item { height: 200px; }
+   #myCarousel{
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   #slide1 {
+   background: url('../img/img1-prd-extra-small3.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+   background: url('../img/img2-npt-extra-small3.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   background: url('../img/img3-spectre-extra-small3.jpg') top center no-repeat;
+   }
+ }
+
+ @media (max-width: 480px) {
+   .modal-dialog{
+     width: 250px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+ }
+ @media (min-width: 480px) {
+ .modal-dialog{
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+}
+
+@media(max-width:992px){
+    .row1.one{height: 120px;}
+    .row1.two{height: 70px;}
+    .row1.three{height: 90px;}
+    .row2.two{width:100%;}
+    .row2.two .slide{padding-right: 2px;padding-left: 0px;}
+}
+@media(max-width:430px){
+    .row1.one{height: 130px;}
+    .row1.two{height: 80px;}
+    .row1.three{height: 100px;}
+}
+
+ @media (min-width: 768px) {
+
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 0px;
+  }
+
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+      margin-left: 0px;
+    }
+
+   ul.nav li.dropdown#home:hover > ul.dropdown-menu {
+       display: block;
+     }
+     .modal-dialog{width: 400px;}
+
+     #myCarousel .item { height: 310px; }
+
+   #slide1 {
+    background: url('../img/img1-prd-small.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+    background: url('../img/img2-npt-small.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+    background: url('../img/img3-spectre-small.jpg') top center no-repeat;
+   }
+
+
+ }
+ @media (min-width: 992px) {
+   ul.nav li.dropdown#home:hover > ul.dropdown-menu {
+       display: block;
+     }
+     #myCarousel .item { height: 400px; }
+
+     #slide1 {
+      background: url('../img/img1-prd-medium.jpg') top center no-repeat;
+     }
+
+     #slide2 {
+      background: url('../img/img2-npt-medium.jpg') top center no-repeat;
+     }
+
+     #slide3 {
+      background: url('../img/img3-spectre-medium.jpg') top center no-repeat;
+     }
+
+ }
+ @media (min-width: 1200px) {
+   ul.nav li.dropdown#home:hover > ul.dropdown-menu {
+       display: block;
+   }
+   .modal-dialog{width: 500px;}
+   #myCarousel .item { height: 600px; }
+
+   #slide1 {
+    background: url('../img/img1-prd-large.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+    background: url('../img/img2-npt-large.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+    background: url('../img/img3-spectre-large.jpg') top center no-repeat;
+   }
+
+ }
+
+ /* Media Queries styling end */
+ /*#myCarousel .item{
+   height: 500px;
+ }*/
+
+ #myCarousel .item img{
+   width: 100%;
+   min-height: 300px;
+ }
+
+  #slide1,#slide2,#slide3{
+    background-image: none;
+  }

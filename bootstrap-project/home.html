@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Book Movie Tickets, See Reviews, Latest Releases...</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+  <script src="js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+  <!-- staring book modal -->
+  <div class="modal fade " id="book">
+    <div class="modal-dialog">
+      <div class="modal-content">
+<div class="modal-body">
+  <button class="close" data-dismiss="modal">&times;</button>
+  <form action="#">
+
+    <b> Select No of Seats:</b>  <input type="number" min="1" max="6" value="2"> <br>
+       <center><button class="btn btn-danger btn-block" type="submit">Book Now</button></center>
+
+  </form>
+</div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade " id="trailer1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+<div class="modal-body">
+  <button class="close" data-dismiss="modal">&times;</button>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/1W1hABhzEtU" frameborder="0" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+
+<div class="modal fade " id="trailer2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+<div class="modal-body">
+<button class="close" data-dismiss="modal">&times;</button>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/z4UDNzXD3qA" frameborder="0" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+<div class="modal-body">
+  <button class="close" data-dismiss="modal">&times;</button>
+  <!-- <iframe width=100% height="315" src="https://www.youtube.com/embed/rSAiSTkVMfs" frameborder="0" allowfullscreen></iframe> -->
+<img src="img/payumoney-logo.png" alt="PayUMoney" height="60px" width="170px">
+<p>Now pay using PayuMoney and get <span>50%</span> cashback</p>
+<p>Coupon Code <span>PAYU50</span></p>
+<button type="button" name="signin" class="btn btn-danger ">Sign in</button><br>
+<div class="usersignin">
+<a href="#" class="btn btn-link btn-primary">Forgot Password?</a>
+<span id="newuser">New user?</span> <a href="#" class="btn btn-link btn-primary">Register</a><br></div>
+<a href="#" id="fbsignin"><img src="img/fbsignin.png" alt="facebook sign in" width="175px" height="40px"></a>
+<a href="#" id="googlesignin"><img src="img/googlesignin.png" alt="google plus sign in" width="175px" height="40px"></a>
+</div>
+</div>
+</div>
+</div>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+<div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="/"><img src="img/mylogo.jpg" alt="Logo" height="100%"></a>
+</div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+
+        <ul class="nav navbar-nav">
+          <li class="" ><a href="#">Home</a></li>
+          <li class="dropdown" id="home">
+            <a href="#"  class="dropdown-toggle" data-toggle="dropdown">
+              About us<strong class="caret"></strong>
+            </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Services</a>
+            </li>
+
+            <li>
+              <a href="#">Team</a>
+            </li>
+
+            <li>
+              <a href="#">Work Culture</a>
+            </li>
+
+            <li>
+              <a href="#">Careers</a>
+            </li>
+
+          </ul><!-- end dropdown-menu -->
+        </li>
+        </ul>
+
+        <marquee behavior="scroll" direction="left">
+          <a href="reviews.html" class="btn btn-link" target="_blank">Latest Reviews</a>
+        </marquee>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-user"></span> My Account<strong class="caret"></strong>
+            </a>
+            <ul class="dropdown-menu">
+              <table class="table table-hover">
+                <tr><td>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+              </li></td></tr>
+              <tr><td>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+              </li></td>
+              </tr>
+              <tr><td>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+              </li></td></tr>
+              <tr>
+
+              <!-- <li class="divider"></li> -->
+              <td>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+              </li></td>
+              </tr>
+              </table>
+            </ul>
+          </li>
+        </ul>
+</div>
+      </div>
+    </nav><!-- Navbar End-->
+
+    <!--Carousel slide start -->
+    <div class="container-fluid carouselbar">
+  			<div class="carousel slide" id="myCarousel">
+  				<!-- Indicators -->
+  				<ol class="carousel-indicators">
+  					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+  					<li data-slide-to="1" data-target="#myCarousel"></li>
+  					<li data-slide-to="2" data-target="#myCarousel"></li>
+  				</ol>
+
+  				<!-- Wrapper for slides -->
+  				<div class="carousel-inner">
+  					<div class="item active" id="slide1">
+  						<div class="carousel-caption">
+                <a href="#book" class="btn btn-danger" data-toggle="modal">Book Your Tickets Now</a>
+  						</div><!-- end carousel-caption-->
+              <img src="img/slide/img2-htv2.jpg" alt="Hotel Transylvania 2">
+  					</div><!-- end item -->
+
+  					<div class="item" id="slide2">
+  						<div class="carousel-caption">
+  							<span>Releasing Soon...</span>
+                <a href="#trailer1" class="btn btn-danger" data-toggle="modal">Watch Teaser Here</a>
+  						</div><!-- end carousel-caption-->
+              <img src="img/img2-npt-large.jpg" alt="Nannaku Prematho">
+  					</div><!-- end item -->
+
+  					<div class="item" id="slide3">
+  						<div class="carousel-caption">
+                <span>This November in Theatres</span>
+                <a href="#trailer2" class="btn btn-danger" data-toggle="modal">Watch Teaser Here</a>
+  						</div><!-- end carousel-caption-->
+              <img src="img/slide/img3-spectre.jpg" alt="Spectre" >
+  					</div><!-- end item -->
+  				</div><!-- carousel-inner -->
+
+  				<!-- Controls -->
+  				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+  				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+  			</div>
+        </div>
+  <!--Carousel slide end -->
+
+<div class="container-fluid newrow">
+  <div class="row">
+    <div class="col-md-3 one">
+      <div class="check">
+        <div class="row1 one">
+              Now pay using Paytm Wallet and get 10% cashback.<br>
+              Coupon Code: Pay20<br>
+              valid till 20 NOV
+        </div><br>
+        <div class="row1 two">
+              Install BookMyShow App and get 30% on your first booking<br>
+        </div><br>
+        <div class="row1 three">
+              Now every Payment made easy. <br>
+              Just recharge your wallet and book tickets any time.<br>
+        </div>
+      </div>
+   </div>
+     <div class="col-md-6">
+       <div class="check1">
+         <div class="row2 one">
+           Now Showing
+         </div>
+         <div class="row2 two">
+          <div class="slick-bar now"><!--First Slick Bar Start-->
+           <div class="my-slick-slider">
+               <div class="col-md-3 slide">
+                  <div class="thumbnail">
+                  <span class="hspan">
+                 <img src="img/slide/rangitharanga.JPG" alt="Rangitharanga">
+               </span>
+               <span class="hoverspan">
+   <a href="#book" class="btn btn-danger btn-block" data-toggle="modal">Book Tickets</a>
+               </span>
+                 <div class="caption">
+                   <span class="title">Rangitharanga</span><span class="badge">U/A</span><br>
+                   <span class="badge">Kannada</span>
+                 </div>
+               </div>
+             </div>
+
+             <div class="col-md-3 slide">
+                <div class="thumbnail">
+              <span class="hspan1">
+               <img src="img/slide/bahubali.jpg" alt="Bahuabali">
+             </span>
+             <span class="hoverspan1">
+ <a href="#book" class="btn btn-danger btn-block" data-toggle="modal">Book Tickets</a>
+             </span>
+               <div class="caption">
+                 <span class="title">Bahubali</span><span class="badge">U/A</span><br>
+                 <span class="badge">Telugu</span>
+               </div>
+             </div>
+           </div>
+
+           <div class="col-md-3 slide">
+              <div class="thumbnail">
+            <span class="hspan2">
+             <img src="img/slide/Pyaar-Ka-Punchnama2.jpg" alt="Pyaar-Ka-Punchnama">
+           </span>
+           <span class="hoverspan2">
+<a href="#book" class="btn btn-danger btn-block" data-toggle="modal">Book Tickets</a>
+           </span>
+             <div class="caption">
+               <span class="title">Pyaar Ka Punchnama 2</span><span class="badge">A</span><br>
+               <span class="badge">Hindi</span>
+             </div>
+           </div>
+           </div>
+
+           <div class="col-md-3 slide">
+              <div class="thumbnail">
+            <span class="hspan3">
+             <img src="img/slide/hotel-transylvania2.jpg" alt="Hotel Transylvania 2">
+           </span>
+           <span class="hoverspan3">
+<a href="#book" class="btn btn-danger btn-block" data-toggle="modal">Book Tickets</a>
+           </span>
+             <div class="caption">
+               <span class="title">Hotel Transylvania 2</span><span class="badge">UA</span><br>
+               <span class="badge">English</span>
+             </div>
+           </div>
+           </div>
+
+          </div>
+      </div><!--End of First Slick Bar-->
+    </div><!--End of Row2 two-->
+  </div><!--End of .check1-->
+</div><!--End of col-md-6-->
+
+     <div class="col-md-3 two">
+       <div class="check2">
+         <div class="row3 one">
+           <a href="https://www.youtube.com/watch?v=10r9ozshGVE" target="_blank">
+             <img src="img/kungfu.jpg" class="img-responsive" alt="Kungfu Panda">
+           </a>
+         </div>
+       </div>
+     </div>
+
+  </div><!--End of Row-->
+</div><!--End of Container Fluid-->
+
+<div class="container-fluid wallet">
+   <img src="img/wallet.png" alt="Wallet">
+   <span id="flick">SELECT A FLICK</span><br>
+   <span id="click">PAY WITH A CLICK</span><br><br>
+   <span id="description">
+     With BookMyShow's MyWallet, paying for your movie and event tickets online is going to be insanely easy. Like, one-click easy.
+   </span><br>
+   <button class="btn btn-danger">Active My Wallet</button>
+</div>
+
+
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2">
+      <h6>Copyright &copy; 2015 bootstrap</h6>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>LATEST MOVIES</h6>
+        <ul class="unstyled">
+          <li><a href="#">Now Showing</a></li>
+          <li><a href="#">Coming Soon</a></li>
+          <li><a href="#">Movie Celebrities</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>LATEST MOVIES</h6>
+        <ul class="unstyled">
+          <li><a href="#">Now Showing</a></li>
+          <li><a href="#">Coming Soon</a></li>
+          <li><a href="#">Movie Celebrities</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>Book My Show App</h6>
+        <ul class="unstyled">
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">Android</a></li>
+          <li><a href="#">BlackBerry</a></li>
+          <li><a href="#">Windows</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>Follow Us</h6>
+        <ul class="unstyled">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Google Plus</a></li>
+        </ul>
+      </div><!-- end col-sm-2 -->
+
+      <div class="col-sm-2">
+        <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Nirup TNL</h6>
+      </div><!-- end col-sm-2 -->
+    </div><!-- end row -->
+  </div>
+</footer>
+
+    <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
