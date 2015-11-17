@@ -265,6 +265,11 @@ marquee .btn-link:hover{
   cursor: pointer;
   color: white;
 }
+marquee a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
 .navbar-toggle{
   background-color: white;
 }
